@@ -1,0 +1,25 @@
+{
+  "name": "mis",
+  "version": "1.0.0",
+  "description": "Medical information system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "passport": "^0.4.0",
+    "passport-jwt": "*"
+  },
+  "author": "Danyil Pylypovych",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
